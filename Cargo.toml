@@ -20,3 +20,7 @@ lapin = "2.0"
 sqlx = { version = "0.8.2", features = ["postgres", "runtime-tokio-rustls"]}
 tokio = { version = "1.40.0", features = ["full"] }
 tokio-postgres = "0.7.12"
+shuttle-runtime = "0.45.0"  # Use the latest version here
+shuttle-axum = "0.45.0"
+redis = "0.27.2"
+futures-util = "0.3.30"
